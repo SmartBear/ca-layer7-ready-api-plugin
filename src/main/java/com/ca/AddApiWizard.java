@@ -12,7 +12,7 @@ public interface AddApiWizard {
     @AField(name = "Username", description = "Username", type = AField.AFieldType.STRING)
     public final static String USERNAME = "Username";
 
-    @AField(name = "Password", description = "Password", type = AField.AFieldType.STRING)
+    @AField(name = "Password", description = "Password", type = AField.AFieldType.PASSWORD)
     public final static String PASSWORD = "Password";
 
     @AField(name = "Remember Credentials", description = "Remember credentials", type = AField.AFieldType.BOOLEAN)
